@@ -1,0 +1,13 @@
+server:
+  port: 9801
+  context-path: /web
+
+spring:
+  datasource:
+    username: root
+    password: 1234@qwer
+    url: jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  type-aliases-package: com.yoyo.entity
+  mapper-locations: classpath:mapper/*.xml
