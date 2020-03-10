@@ -10,12 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-@Import(StudentRestController.class)
-@ComponentScan("com.yoyo.mappers")
-@MapperScan("com.yoyo.mappers")
 @EnableSwagger2
 @SpringBootApplication
 @RestController
+@MapperScan("com.yoyo.mappers")
 public class HelloApp {
     @RequestMapping("/index")
     public String index(){
