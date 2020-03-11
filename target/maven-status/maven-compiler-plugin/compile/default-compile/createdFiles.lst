@@ -1,0 +1,5 @@
+com\yoyo\service\impl\studentServiceImpl.class
+com\yoyo\handler\studentRestController.class
+com\yoyo\service\studentService.class
+com\yoyo\entity\Student.class
+com\yoyo\helloApp.class
